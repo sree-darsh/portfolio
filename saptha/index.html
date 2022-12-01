@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Saptha | Resort and SPA</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="icon" type="image/png" href="images/favicon-16x16.png" />
+    <link rel="icon" type="image/png" href="images/favicon-32x32.png" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+  </head>
+  <body>
+    <!-- Preloader -->
+    <div id="overlayer"> <img src="images/saptha-logo.svg" alt="Saptha" /></div>
+    <span class="loader">
+      <span class="loader-inner"></span>
+     
+    </span>
+
+    <!-- Home page landing section -->
+    <section class="landing-section" id="landing-scroll">
+      <div
+        class="landing-section__hotel-img"
+        id="hotel-img"
+        style="background-image: url(images/saptha_hotel-landing-page.jpg)"
+      ></div>
+      <div
+        class="landing-section__bamboo"
+        id="bamboo-img"
+        style="background-image: url(images/bamboo.png)"
+      ></div>
+      <div class="landing-section__clouds" id="clouds">
+        <div class="landing-section__clouds__01"></div>
+        <div class="landing-section__clouds__02"></div>
+      </div>
+      <div class="landing-section__logo" id="landing-logo">
+        <i class="icon-saptha-logo"></i>
+      </div>
+
+      <div class="landing-section__darkbg" id="dark-bg"></div>
+      <div class="landing-section__scrolldown" id="scrolldown">
+        <a href="#banner" class="scroll-down">scroll down</a>
+      </div>
+    </section>
+    <!-- Header -->
+    <section class="header-section position-sticky sticky-top" id="header">
+      <div class="container">
+        <div class="row">
+          <div
+            class="col-md-12 d-flex align-items-center justify-content-between"
+          >
+            <a href="index.html"
+              ><img
+                src="images/saptha-logo.svg"
+                alt="Saptha"
+                class="header-section__logo"
+            /></a>
+            <button type="button" class="mobile-nav-toggle d-lg-none">
+              <i class="icon-menu"></i>
+            </button>
+            <nav class="main-nav float-right d-none d-lg-block">
+              <ul>
+                <li class="active"><a href="index.html">Home</a></li>
+                <li class=""><a href="#about">About</a></li>
+                <li class="drop-down">
+                  <a href="">Rooms</a>
+                  <ul>
+                    <li><a href="#">Grand Executive suite</a></li>
+                    <li><a href="#">Grand terrace bed</a></li>
+                    <li><a href="#">Presidential suite</a></li>
+                    <li><a href="#">Grand suite king</a></li>
+                  </ul>
+                </li>
+                <li class=""><a href="#portfolio">Aminities</a></li>
+                <li class=""><a href="#team">SPA</a></li>
+
+                <li><a href="#footer">Contact Us</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Banner section -->
+    <section class="banner-section overlay" id="banner">
+      <div
+        class="banner-section__bg-img"
+        style="background-image: url(images/video-banner-01.jpg)"
+      ></div>
+      <div class="container h-100">
+        <div class="row justify-content-center align-items-center h-100">
+          <div class="col-md-12 h-100">
+            <div
+              class="banner-section__caption text-white text-center text-white h-100 fade-in"
+            >
+              Blending Comfort and <br />
+              Beauty of Nature<br />
+              <a href="#0" title="Book now" class="btn-link btn-arrow"
+                >book now <i class="icon-arrow-right"></i></a
+              ><br />
+              <a
+                href="#0"
+                data-toggle="modal"
+                data-target="#exampleModalCenter"
+                class="play-btn"
+                ><i class="icon-play"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Booking widget -->
+    <section class="booking-widget-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="booking-widget">
+              <div class="row col-md-12 no-gutters">
+                <div class="col-xl-5 col-md-12">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <label>Check in</label>
+                      <div class="booking-widget__datepicker">
+                        <input
+                          type="text"
+                          class="form-control"
+                          id="checkIn"
+                          placeholder="select date"
+                          data-input
+                        />
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <label>Check Out</label>
+                      <div class="booking-widget__datepicker">
+                        <input
+                          type="text"
+                          class="form-control"
+                          id="checkOut"
+                          placeholder="select date"
+                          data-input
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xl-7 col-md-12">
+                  <div class="row align-items-end">
+                    <div class="col-md-3">
+                      <label>Rooms</label>
+                      <select class="custom-select">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                      </select>
+                    </div>
+                    <div class="col-md-3">
+                      <label>Adult</label>
+                      <select class="custom-select">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                      </select>
+                    </div>
+                    <div class="col-md-3">
+                      <label>Children</label>
+                      <select class="custom-select">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                      </select>
+                    </div>
+                    <div class="col-md-3">
+                      <button class="custom-btn">Book Now</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Introduction section -->
+    <section
+      class="introduction-section right-bambo-leaf bg-saptha-dark"
+      id="introduction"
+    >
+      <div class="logo-overlay" id="logo-overlay-01"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h1 class="title_small curve-border text-white fade-in">
+              INTRODUCTION
+            </h1>
+            <h2 class="title_large text-white fade-in">
+              <span class="text-green">Saptha Resorts & Spa</span> is an
+              exclusive resort offering<br />
+              world-class stay, dining & Spa experience in the<br />
+              lap of mother nature
+            </h2>
+            <a href="#0" title="Book now" class="btn-link btn-arrow fade-in"
+              >book now <i class="icon-arrow-right"></i
+            ></a>
+            <a href="#0" class="scroll-down fade-in"></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Aminites section-->
+    <section class="aminities-section bg-saptha-dark">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h2 class="title_small curve-border text-white fade-in">
+              Aminities
+            </h2>
+            <div class="aminities-section__item-list">
+              <div class="aminities-section__item fade-in">
+                <i class="icon-wifi"></i>
+                <span>free internet</span>
+              </div>
+              <div class="aminities-section__item fade-in">
+                <i class="icon-spa"></i>
+                <span>SPA treatment</span>
+              </div>
+              <div class="aminities-section__item fade-in">
+                <i class="icon-dumbell"></i>
+                <span>fitness centre</span>
+              </div>
+              <div class="aminities-section__item fade-in">
+                <i class="icon-swimmer"></i>
+                <span>swimming pool</span>
+              </div>
+              <div class="aminities-section__item fade-in">
+                <i class="icon-parking"></i>
+                <span>free parking</span>
+              </div>
+              <div class="aminities-section__item fade-in">
+                <i class="icon-coffee"></i>
+                <span>24x7 Restaurant</span>
+              </div>
+              <div class="aminities-section__item fade-in">
+                <i class="icon-meeting"></i>
+                <span>conference room</span>
+              </div>
+              <div class="aminities-section__item fade-in">
+                <i class="icon-hanger"></i>
+                <span>laundry</span>
+              </div>
+            </div>
+            <a
+              href="#0"
+              title="All aminities"
+              class="btn-link btn-arrow fade-in"
+              >all aminities <i class="icon-arrow-right"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Discover-section -->
+    <section class="discover-section" id="discover">
+      <div
+        class="discover-section__bg"
+        style="background-image: url(images/dicover_saptha.jpg)"
+      ></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5">
+            <div class="discover-section__contents green-overlay">
+              <div>
+                <h3 class="title_small curve-border text-white fade-in">
+                  discover yourself
+                </h3>
+              </div>
+              <h3 class="title_large text-white fade-in">
+                Relax and revive with one of India's rejuvenating Spa treatments
+              </h3>
+              <a href="#0" title="Know more" class="btn-link btn-arrow fade-in"
+                >know more<i class="icon-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+          <div class="col-md-7">
+            <a
+              href="#0"
+              data-toggle="modal"
+              data-target="#exampleModalCenter"
+              class="play-btn fade-in"
+              ><i class="icon-play"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Rooms section-->
+    <section class="rooms-section fade-in" id="rooms">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 d-flex justify-content-between">
+            <div>
+              <h3 class="title_small curve-border text-grey fade-in">
+                rooms & Suits
+              </h3>
+              <h3 class="title_large text-green fade-in">
+                A breathtaking, timeless space to<br />
+                call home in the natural world
+              </h3>
+            </div>
+            <div class="rooms-section__controls">
+              <a href="#0" class="prev-slide"
+                ><i class="icon-left-arrow"></i
+              ></a>
+              <a href="#0" class="next-slide"
+                ><i class="icon-left-arrow"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="rooms-slider">
+        <div class="rooms-slider__item">
+          <img data-lazy="images/room-01.jpg" alt="Grand Executive Suite" />
+          <div class="rooms-slider__contents">
+            <div><small>Suit</small></div>
+            <span>Grand Executive Suite</span>
+            <a href="#0" title="Know more" class="btn-link btn-arrow"
+              >know more<i class="icon-arrow-right"></i
+            ></a>
+          </div>
+        </div>
+        <div class="rooms-slider__item">
+          <img data-lazy="images/room-02.jpg" alt="Grand Terrace Bed" />
+          <div class="rooms-slider__contents">
+            <div><small>Room</small></div>
+            <span>Grand Terrace Bed</span>
+            <a href="#0" title="Know more" class="btn-link btn-arrow"
+              >know more<i class="icon-arrow-right"></i
+            ></a>
+          </div>
+        </div>
+        <div class="rooms-slider__item">
+          <img data-lazy="images/room-03.jpg" alt="Presidential Suite" />
+          <div class="rooms-slider__contents">
+            <div><small>Suit</small></div>
+            <span>Presidential Suite</span>
+            <a href="#0" title="Know more" class="btn-link btn-arrow"
+              >know more<i class="icon-arrow-right"></i
+            ></a>
+          </div>
+        </div>
+        <div class="rooms-slider__item">
+          <img data-lazy="images/room-04.jpg" alt="Grand Suite King" />
+          <div class="rooms-slider__contents">
+            <div><small>Room</small></div>
+            <span>Grand Suite King</span>
+            <a href="#0" title="Know more" class="btn-link btn-arrow"
+              >know more<i class="icon-arrow-right"></i
+            ></a>
+          </div>
+        </div>
+        <div class="rooms-slider__item">
+          <img data-lazy="images/room-03.jpg" alt="Grand Suite King" />
+          <div class="rooms-slider__contents">
+            <div><small>Room</small></div>
+            <span>Grand Suite King</span>
+            <a href="#0" title="Know more" class="btn-link btn-arrow"
+              >know more<i class="icon-arrow-right"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+      <div class="text-center mt-5">
+        <a
+          href="#0"
+          title="view all"
+          class="btn-link btn-arrow text-green fade-in"
+          >view all<i class="icon-arrow-right"></i
+        ></a>
+      </div>
+    </section>
+    <!-- Features section-->
+    <section class="features-section fade-in" id="features">
+      <div
+        class="leaf-overlay"
+        style="background-image: url(images/leaf-overlay.svg)"
+      ></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center mb-5">
+            <div>
+              <h3 class="title_small curve-border text-grey fade-in">
+                features
+              </h3>
+            </div>
+          </div>
+          <div class="col-md-9 m-auto">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="feature-section__img">
+                  <img src="images/features-01.jpg" alt="Saptha" />
+                </div>
+              </div>
+              <div class="col-md-6">
+                <h3 class="title_large text-green fade-in">
+                  You are entering nature's ground
+                </h3>
+                <p class="fade-in">
+                  Elegant, exclusive and in its essence a state of mind, the
+                  Saptha Resort is an exquisite jungle getaway, a largely
+                  mountainous district,. Situated beneath an enormous canopy of
+                  a lush tropical rainforest
+                </p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6 order-1 order-md-2">
+                <div class="feature-section__img fade-in">
+                  <img src="images/features-02.jpg" alt="Saptha" />
+                </div>
+              </div>
+              <div class="col-md-6 order-2 order-md-1">
+                <h3 class="title_large text-green fade-in">
+                  An exquisite dining experience
+                </h3>
+                <p class="fade-in">
+                  Elegant, exclusive and in its essence a state of mind, the
+                  Saptha Resort is an exquisite jungle getaway, a largely
+                  mountainous district.
+                </p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="feature-section__img fade-in">
+                  <img src="images/features-03.jpg" alt="Saptha" />
+                </div>
+              </div>
+              <div class="col-md-6">
+                <h3 class="title_large text-green fade-in">
+                  Enjoy your special day with Saptha
+                </h3>
+                <p class="fade-in">
+                  Elegant, exclusive and in its essence a state of mind, the
+                  Saptha Resort is an exquisite jungle getaway, a largely
+                  mountainous district,. Situated beneath an enormous canopy of
+                  a lush tropical rainforest
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Offers -->
+    <section class="offers-section" id="offer">
+      <div
+        class="offers-section__bg overlay"
+        style="background-image: url(images/offers-bg.jpg)"
+      ></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 d-flex justify-content-between">
+            <div>
+              <h3 class="title_small curve-border text-white fade-in">
+                Offers
+              </h3>
+              <h3 class="title_large text-white fade-in">
+                Choose from some of the most<br />
+                popular vacation packages
+              </h3>
+            </div>
+            <div class="rooms-section__controls">
+              <a href="#0" class="prev-slide text-white"
+                ><i class="icon-left-arrow"></i
+              ></a>
+              <a href="#0" class="next-slide text-white"
+                ><i class="icon-left-arrow"></i
+              ></a>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <div class="offer-slider">
+              <div class="offer-slider__item">
+                <div class="offer-slider__details">
+                  <img src="images/offer-01.jpg" alt="Saptha" />
+                  <div class="offer-slider__contents green-overlay">
+                    <span class="text-white">honeymoon packages</span>
+                    <h3 class="title_large text-white">
+                      Exclusive Honeymoon Packages to make your memories as
+                      beautiful you are
+                    </h3>
+                    <a
+                      href="#0"
+                      title="view all"
+                      class="btn-link btn-arrow text-white"
+                      >view all<i class="icon-arrow-right"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <div class="offer-slider__item">
+                <div class="offer-slider__details">
+                  <img src="images/offer-01.jpg" alt="Saptha" />
+                  <div class="offer-slider__contents green-overlay">
+                    <span class="text-white">honeymoon packages</span>
+                    <h3 class="title_large text-white">
+                      Exclusive Honeymoon Packages to make your memories as
+                      beautiful you are
+                    </h3>
+                    <a
+                      href="#0"
+                      title="view all"
+                      class="btn-link btn-arrow text-white"
+                      >view all<i class="icon-arrow-right"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Customer reviews -->
+    <section class="reviews-section">
+      <div class="logo-overlay"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center mb-5">
+            <div>
+              <h3 class="title_small curve-border text-grey fade-in">
+                features
+              </h3>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <div class="reviews-slider">
+              <div class="reviews-slider__item">
+                <div class="reviews-slider__contents fade-in">
+                  <h3 class="title_large text-green">
+                    "Our stay was amazing. We will be returning again."
+                  </h3>
+                  <span>Amy Johnson</span>
+                  <small>Adventurer</small>
+                </div>
+              </div>
+              <div class="reviews-slider__item">
+                <div class="reviews-slider__contents fade-in">
+                  <h3 class="title_large text-green">
+                    "Our stay was amazing. We will be returning again."
+                  </h3>
+                  <span>Amy Johnson</span>
+                  <small>Adventurer</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer bg-saptha-dark">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="footer__getintouch">
+              <span>Be our guest, let us know your queries</span>
+              <a href="#0" class="custom-btn">contact us</a>
+            </div>
+            <div class="footer__map">
+              <img src="images/map.jpg" alt="Saptha" />
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-md-6">
+            <a href="index.html"
+              ><img src="images/saptha-logo.svg" title="Saptha" class="logo"
+            /></a>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <span class="footer__title">Explore</span>
+            <ul class="footer__navigation">
+              <li><a href="#0">home</a></li>
+              <li><a href="#0">about us</a></li>
+              <li><a href="#0">rooms</a></li>
+              <li><a href="#0">amenities</a></li>
+              <li><a href="#0">spa</a></li>
+              <li><a href="#0">contact us</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <span class="footer__title">Customer service</span>
+            <ul class="footer__navigation">
+              <li><a href="#0">FAQs</a></li>
+              <li><a href="#0">Modify / Cancel Reservations</a></li>
+              <li><a href="#0">Retrieve Bill</a></li>
+              <li><a href="#0">Customer Service</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <span class="footer__title">Customer service</span>
+            <ul class="footer__navigation">
+              <li>
+                <div class="footer-icon-space">
+                  <i class="icon-phone"></i>
+                  <div>
+                    <a href="tel:919123456789"> +91 9123 4567 89</a>
+                    <br />
+                    <a href="tel:919123456700"> +91 9123 4567 00</a>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <a href="mailto:info@saptharesorts.com"
+                  ><i class="icon-mail"></i>info@saptharesorts.com</a
+                >
+              </li>
+              <li>
+                <div class="footer-icon-space">
+                  <i class="icon-map-pin"></i>
+                  <div>
+                    Saptha Resorts and Spa,<br />
+                    123/abc, address line<br />
+                    Address line 1
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="footer__copyright">
+              <p>copyrights 2020. All rights reserved Saptha resorts & spa</p>
+              <ul class="social-media">
+                <li>
+                  <a href="#0"><i class="icon-facebook"></i></a>
+                </li>
+                <li>
+                  <a href="#0"><i class="icon-instagram"></i></a>
+                </li>
+                <li>
+                  <a href="#0"><i class="icon-youtube"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Video Modal -->
+    <div
+      class="modal fade video-modal"
+      id="exampleModalCenter"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalCenterTitle"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <a href="#" class="close" data-dismiss="modal" aria-label="Close">
+            <i class="icon-close"></i>
+          </a>
+          <div class="modal-body p-0">
+            <div class="video-modal_iframe">
+              <iframe
+                src="https://www.youtube.com/embed/hnuN-saG25s"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Scripts -->
+    <script src="js/vendor.min.js"></script>
+  </body>
+</html>
