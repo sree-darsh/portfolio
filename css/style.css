@@ -48,9 +48,10 @@ body {
   .blue-text {
     color: #1534e3;
   }
-  .bg-dark{background-color: #0f0f0f !important;}
   
-  .capabilities .card{color:#fff;border-radius: 30px;text-align: center;background: #171717;height: 280px;display: flex;justify-content: center;align-items: center;}
+  .bg-dark{background-color: #0f172a !important;}
+  
+  .capabilities .card{color:#fff;border-radius: 30px;text-align: center;background: #131e37;height: 140px;display: flex;justify-content: center;align-items: center;}
   .capabilities .card .icon{width: 50px; margin: 0px auto 30px;}
   
   .pink-text {
@@ -82,7 +83,7 @@ body {
   }
   
   .banner-texture {
-    background: #0f0f0f;
+    background: #0f172a;
     height: 100vh;
   }
   .navbar-light .navbar-nav .nav-link {
@@ -447,22 +448,23 @@ body {
   }
   
   .custom-space{padding-top: 100px;padding-bottom: 100px;background: url("../images/texture.png");}
+  .skil-title{
+ font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
   .custom-list {
     padding: 0;
     display: flex;
     flex-wrap: wrap;
 }
   .custom-list li {
-    font-size: 18px;
-    font-weight: 600;
+       display: block;
+    width: 100%;
+    text-align: left;
     margin-bottom:5px;
-    position: relative;
-    width: 240px;
-    border: 1px solid #e0dbdb;
-    border-radius: 18px;
-    padding: 10px;
-    margin: 0 20px 20px 0;
-    text-align: center;
+  font-size: 14px;
+
     list-style: none;
 }
   
